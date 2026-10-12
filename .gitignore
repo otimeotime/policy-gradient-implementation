@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor
+.vscode/
+
+# Training and evaluation outputs
+runs/
+checkpoints/
+experiments/
+eval_logs/
+eval_results/
+*.log
+
+# Old REINFORCE checkpoint (13 MB); delete this line to keep it in the repo
+/reinforce
