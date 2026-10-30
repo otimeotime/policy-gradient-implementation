@@ -9,7 +9,10 @@ __pycache__/
 # Training and evaluation outputs
 runs/
 checkpoints/
-experiments/
+# Keep experiment figures while excluding CSVs, configs, checkpoints, and logs.
+experiments/**
+!experiments/**/
+!experiments/**/*.png
 eval_logs/
 eval_results/
 *.log
